@@ -1,0 +1,151 @@
+.app {
+    min-height: 100vh;
+    background: rgb(25, 182, 235);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tweet {
+    height: 300px;
+    width: 300px;
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red {
+    color: red;
+    font-size: 50px;
+}
+
+/************ CUSTOM STYLES ***********/
+
+/* Global CSS
+====================================================================*/
+
+/* Footer fix */
+
+body {
+    padding-top: 0;
+    display: block;
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#footer-wrapper {
+    width: 100%;
+    /* position:absolute;
+	bottom:0;
+	left:0; */
+    max-height: 200px;
+}
+
+/* BASIC */
+/* 
+a:link, a:visited {
+} */
+
+ul li {
+    list-style: none !important;
+}
+
+/* HEADER CSS
+====================================================================*/
+.header-container {
+    background-color: #FF5600;
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+.header-container .header-left {
+    width: 80%;
+    display: block;
+    float: left;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.header-container .header-left .left-header-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.header-container .header-left .left-header-container .logo-block {
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    width: 20%;
+    float: left;
+}
+
+.header-container .header-left .left-header-container .logo-block a {
+    width: 60%;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header-container .header-right {
+    width: 20%;
+    border: solid;
+    height: 50px;
+    float: right;
+}
+
+/* CONTENT CSS
+====================================================================*/
+
+.signup-container {
+    padding: 70px 0;
+}
+
+.signup-container form .form-group {
+    display: block;
+}
+
+.signup-container form .form-group .form-control {
+    border: none;
+    border-bottom: 1px solid #131212;
+    border-radius: 0;
+}
+
+
+/* FOOTER CSS
+====================================================================*/
+
+#footer-container {
+    background-color: #5B1C50;
+    width: 100%;
+    display: block;
+    padding: 30px 20px;
+}
+
+#footer-container .row .col-md-2 p a {
+    color: #fff;
+}
+
+#footer-container .row .col-md-2 .first-column a {
+    color: #000;
+    background: #fff;
+    padding: 10px 35px;
+}
+
+#footer-container .row .col-md-2 .third-column p:not(:first-child) {
+    margin: 0;
+}
