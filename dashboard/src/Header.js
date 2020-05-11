@@ -17,11 +17,11 @@ function Header() {
                             <form className="navbar-form navbar-left" action="/action_page.php">
                                 <div classNameName="input-group">
                                     <input type="text" className="form-control" placeholder="Search" name="search"/>
-                                    <div className="input-group-btn">
+                                    {/* <div className="input-group-btn">
                                         <button className="btn btn-default" type="submit">
                                             <i className="glyphicon glyphicon-search"></i>
                                         </button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </form>
                         </div>

@@ -68,8 +68,7 @@
           align-items: center;
 }
 
-#sideMenu .navList
-li {
+#sideMenu .navList li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,21 +78,18 @@ li {
   padding: 15px;
 }
 
-#sideMenu .navList
-li .sideTitle {
+#sideMenu .navList li .sideTitle {
   width: 100%;
   text-align: center;
 }
 
-#sideMenu .navList
-li a {
+#sideMenu .navList li a {
   color: #fff;
   font-size: 18px;
   text-decoration: none;
 }
 
-#sideMenu .navList
-li a:hover {
+#sideMenu .navList li a:hover {
   color: #5b1c50;
 }
 
@@ -104,9 +100,10 @@ li a:hover {
 }
 
 /************Customer Account Page*************/
-#bannerImage img {
+#bannerImage {
   width: 100%;
-  height: 242px;
+  height: 200px;
+  background: #E3E1E1;
 }
 
 .accountBlock {
@@ -176,14 +173,12 @@ li a:hover {
 }
 
 #toggleContent .commonQuesBlock {
-  background-color: #F2F0F0;
-  padding: 20px 50px;
-  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
 }
 
-#toggleContent .commonQuesBlock .designIcon .m67 + iniIcon {
-  height: 50px;
-  width: 50px;
-  color: #000;
+#toggleContent .commonQuesBlock .quesNo {
+  font-weight: 600;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=thestyles.css.map */

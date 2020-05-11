@@ -113,11 +113,6 @@ function CustomerAccount() {
 
 }
 
-// $(document).ready(function () {     $('span').click( function() {
-// if($(this).parents().siblings('input').is('[readonly]')){
-// $(this).parents().siblings('input').prop('readonly', false); turns the
-// readonly off         }else{
-// $(this).parents().siblings('input').prop('readonly', true); turns the
-// readonly off         }     }); });
+
 
 export default CustomerAccount;

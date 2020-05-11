@@ -14,9 +14,9 @@ function Customer() {
     return (
         <div className="customerAccount">
             <div className="bannerImage" id="bannerImage">
-                <a href="#">
+                {/* <a href="#">
                     <img src={logo} alt="Logo"></img>
-                </a>
+                </a> */}
             </div>
             <div className="accountBlock">
                 <div className="row">
@@ -28,28 +28,28 @@ function Customer() {
 
                     </div>
                     <div className="col-md-8">
-                        
+
                         <div className="tab-content">
                             <div id="acc" className="tab-pane fade in active">
-                            <CustomerAccount/>
+                                <CustomerAccount/>
                             </div>
                             <div id="ques" className="tab-pane fade">
-                            <Questionnaire />
+                                <Questionnaire/>
                             </div>
                             <div id="order" className="tab-pane fade">
-                                <CustomerOrder />
+                                <CustomerOrder/>
                             </div>
                             <div id="inbox" className="tab-pane fade">
-<Inbox />
+                                <Inbox/>
                             </div>
                             <div id="lovedItems" className="tab-pane fade">
-<ItemsLoved />
+                                <ItemsLoved/>
                             </div>
                             <div id="history" className="tab-pane fade">
-<SearchHistory />
+                                <SearchHistory/>
                             </div>
                             <div id="support" className="tab-pane fade">
-<CustomerSupport />
+                                <CustomerSupport/>
                             </div>
                         </div>
                     </div>

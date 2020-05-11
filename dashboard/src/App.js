@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import './thestyles.css'
 
@@ -7,23 +7,24 @@ import Login from './Login';
 import Footer from './Footer';
 import Customer from './Customer';
 import Form from './form';
+// import Navbar from "./homepage/src/components/layouts/Navbar";
+import ManageFaq from './components/faq/faqBlock'
 
+function App() {
 
-function App(){
+    return (
 
+        <div id="wrapper">
+            <Header/> 
+            <Customer />
 
+            {/* <ManageFaq /> */}
+           
+            <Footer/>
 
-  return(
+        </div>
 
-    <div id="wrapper">
-      <Header />
-       <Customer />
-      {/* <Form/> */}
-
-      <Footer /> 
-    </div>
-
-  );
+    );
 }
 
 export default App;
